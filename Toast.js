@@ -51,10 +51,10 @@ Toast = {
             "; background: " + theme.background +
             "; border-radius: 7px; max-width: 90%; margin: auto; padding: 5px 20px;'>" + message + "</span>";
         document.body.appendChild(div);
-        //setTimeout(function () {
-        //    div.className = 'hidden-toast';
-        //}, 100);
-        //setTimeout(close, duration);
+        setTimeout(function () {
+            div.className = 'hidden-toast';
+        }, 100);
+        setTimeout(close, duration);
         function close() {
             if (document.querySelector("#Toast") != null) {
                 document.body.removeChild(div);
