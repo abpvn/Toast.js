@@ -4,14 +4,14 @@ Show Toast on Web like android Toast
 #### Cách sử dụng:
 1. Cài đặt Toast.js vào website của bạn. 
 2. Sử dụng Toast.js bằng cách gọi hàm
-```
+```javascript
 Toast.MakeToast("Nội dung thông báo",[ToastTHEME],[ToastDURATION])
 ```
 
 #### Trong đó: 
 
 - ToastTHEME là giao diện màu sắc ví dụ: 
-```
+```javascript
 {color:'white',background:'black'}
 ```
 . hoặc bạn có thể dụng Toast.THEME\_DARK hoặc Toast.THEME_LIGHT là theme mặc định.
