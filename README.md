@@ -14,8 +14,8 @@ Toast.MakeToast("Nội dung thông báo",[ToastTHEME],[ToastDURATION])
 ```javascript
 {color:'white',background:'black'}
 ```
-. hoặc bạn có thể dụng Toast.THEME\_DARK hoặc Toast.THEME_LIGHT là theme mặc định.
+hoặc bạn có thể dụng Toast.THEME\_DARK hoặc Toast.THEME_LIGHT là theme mặc định.
 - ToastDURATION là thời gian tồn tại của thông báo theo mili giây. Có thể sử dụng giá trị mặc định Toast.DURATION\_LONG tương đương 6000ms hoặc Toast.DURATION_SHORT tương đương 3000ms
 
 #### Screen Shoot:
-<img src="http://i.imgur.com/OO4oOTV.png"/>
+![Screen Shoot](http://i.imgur.com/OO4oOTV.png)
